@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app renders correctly 1`] = `
+<div
+  id="wrapper"
+>
+  <div
+    className="page-intro"
+  >
+    <a
+      href="http://localhost:5000/api/auth/google"
+    >
+      <img
+        alt="imio"
+        className="sign-in-button"
+        src="button.png"
+      />
+    </a>
+  </div>
+</div>
+`;

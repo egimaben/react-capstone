@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`card renders correctly 1`] = `
+<div
+  className="animated-search-input"
+>
+  <label>
+    <input
+      onChange={[MockFunction]}
+      required={true}
+      type="text"
+      value="value"
+    />
+    <div
+      className="label-text"
+    >
+      <i
+        className="fa fa-search"
+      />
+      search
+    </div>
+  </label>
+</div>
+`;
