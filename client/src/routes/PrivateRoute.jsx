@@ -1,11 +1,7 @@
 import React from 'react'
 import { Redirect, Route } from 'react-router-dom'
 import { isLoggedIn } from '../utils/isLoggedIn';
-
-class PrivateRoute extends React.Component {
-
-  render() {
-    const {component:Component,...rest} = this.props;
+const PrivateRoute=( {component:Component,...rest})=> {
     return (
       <Route
         {...rest}
@@ -19,6 +15,4 @@ class PrivateRoute extends React.Component {
       />
     )
   }
-}
-
 export default PrivateRoute

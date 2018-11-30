@@ -6,7 +6,6 @@ import Instruction from '../Instruction/Instruction'
 import NavBar from '../NavBar/NavBar';
 import SearchInput from '../../components/SearchInput'
 import withStyles from "@material-ui/core/styles/withStyles";
-
 const styles = {
   wrapper: {
     display: 'flex',

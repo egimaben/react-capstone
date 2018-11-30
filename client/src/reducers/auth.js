@@ -1,5 +1,4 @@
 import { FETCH_USER_NAME, FETCH_TOKEN } from '../actions/types';
-
 export default (state = {name:'',token:''}, action) => {
     switch (action.type) {
         case FETCH_USER_NAME:

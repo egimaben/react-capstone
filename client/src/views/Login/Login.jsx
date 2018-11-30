@@ -2,7 +2,6 @@ import React from 'react';
 import { Redirect } from 'react-router-dom';
 import queryString from 'query-string';
 import { isLoggedIn } from '../../utils/isLoggedIn';
-import { connect } from 'react-redux'
 import './Login.css';
 class Login extends React.Component {
   componentWillMount() {
@@ -19,7 +18,7 @@ class Login extends React.Component {
       <div id="wrapper">
         <div className="page-intro">
           {/* <a href="https://shopping-cart-online.herokuapp.com/api/auth/google"> */}
-          <a href="http://localhost:5000/api/auth/google">
+          <a href="http://gitcheatsheet.herokuapp.com/api/auth/google">
             <img className="sign-in-button" src={require('../../assets/img/button.png')} alt="imio" />
           </a>
         </div>
@@ -27,5 +26,4 @@ class Login extends React.Component {
     );
   }
 }
-
 export default Login;

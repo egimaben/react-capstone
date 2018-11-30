@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { FETCH_INSTRUCTIONS } from './types';
-
 export const fetchInstructions = () => async dispatch => {
   try {
     const res = await axios.get("/api/instructions/")
