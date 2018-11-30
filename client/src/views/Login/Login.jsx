@@ -18,7 +18,7 @@ class Login extends React.Component {
       <div id="wrapper">
         <div className="page-intro">
           {/* <a href="https://shopping-cart-online.herokuapp.com/api/auth/google"> */}
-          <a href="http://gitcheatsheet.herokuapp.com/api/auth/google">
+          <a href="https://gitcheatsheet.herokuapp.com/api/auth/google">
             <img className="sign-in-button" src={require('../../assets/img/button.png')} alt="imio" />
           </a>
         </div>

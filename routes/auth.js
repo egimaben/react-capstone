@@ -13,7 +13,7 @@ router.get(
   function(req, res) {
       var token = req.user.token;
       // res.redirect("https://shopping-cart-online.herokuapp.com/login?token=" + token);
-      res.redirect("http://localhost:3000/login?token=" + token);
+      res.redirect("https://gitcheatsheet.herokuapp.com/login?token=" + token);
 
   }
 );
